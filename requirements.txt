@@ -1,0 +1,4 @@
+ping3==4.0.5
+psutil==5.9.5
+Requests==2.31.0
+
