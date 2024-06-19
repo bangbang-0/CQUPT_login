@@ -1,6 +1,5 @@
 [点击下载(windows)](https://github.com/bangbang-0/CQUPT_login/releases/download/cqupt/cqupt.v1.0.release.exe)。
 
-
 python版本3.8.5,其他版本未测试 
 有问题加qq 2978908628
 ```shell
