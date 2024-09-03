@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 2. [normal](normal_Version.py)版本需要连接wifi查看网关,然后更改个人信息和网关名称
 
-解除限速(有线，无线可以看懂了自己改，wifi跑满也就40M,有线可以跑满100M)
+解除限速(有线，无线可以自己改，wifi跑满也就40Mbps,有线可以跑满1000Mbps)
 
 **1.attack版本使用方法**
 
