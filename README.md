@@ -18,7 +18,6 @@ pip install -r requirements.txt
 
 填写资料
 
-![imgattack.png](png/imgattack.png)
 
 保存运行
 
