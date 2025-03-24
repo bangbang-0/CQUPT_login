@@ -17,6 +17,7 @@ def find_fake_ip():
             return res
 
 
+
 def login(arg, ip, device):
     arg["ip"] = ip
     arg["device"] = device
