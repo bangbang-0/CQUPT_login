@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 保存运行
 
+
 **2.normal版本使用方法**
 <big>**使用前确保电脑有线和无线都已经连接到校园网**</big>
 
