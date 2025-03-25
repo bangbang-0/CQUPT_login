@@ -1,4 +1,4 @@
-current_profile: CQUPT
+current_profile: CQU
 profiles:
   CQU:
     login: https://login.cqu.edu.cn:802/eportal/portal/login?callback=dr1004&user_account=,{device},{account}&user_password={password}&wlan_user_ip={ip}
@@ -8,3 +8,4 @@ user_info:
   account: xxxx
   device: '1'
   password: xxxxx
+
