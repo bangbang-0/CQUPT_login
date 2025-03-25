@@ -1,36 +1,47 @@
-[点击下载(windows)](https://github.com/bangbang-0/CQUPT_login/releases/download/cqupt/cqupt.v2.0-release.exe)。
+# CQUPT_Login - 校园网登录工具
 
+[![Windows 下载](https://img.shields.io/badge/Download-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/bangbang-0/CQUPT_login/releases/download/cqupt/cqupt.v2.0-release.exe)
+
+> ✨ **哆点bug** (已测试兼容多所高校)
+
+## 快速开始
+
+### 安装依赖
+在运行本工具前，请确保安装所需的依赖库：
 ```shell
-    pip install -r requirements.txt
+  pip install -r requirements.txt
 ```
-先安装依赖
+🚀 极速版 [attack_version.py](attack_version.py)
 
-哆点应该通用,只试过两个学校🏫
+特点：无需网关信息，一键配置
+配置指南：
+```python
+# ====== 用户信息 ======
+username = "你的学号"    # 例如: 2020114514
+password = "你的密码"    # 例如: 123456
+operator = "cmcc"       # 运营商  默认移动cmcc   电信telecom  联通unicom
+```
 
-有两个版本:
+🎛️ 标准版 [normal_Version.py](normal_Version.py)
+已废弃⚠️
 
-1. [attack](attack_version.py)是特别版只需要更改个人信息
+🏫 重大定制版 [cqu_attack.py](cqu_attack.py)
+1. 编辑 config.yaml 文件
+2. run：
+```Yaml
+auth:
+  username: "统一认证账号"
+  password: "密码"
+```
 
-2. [normal](normal_Version.py)版本需要连接wifi查看网关,然后更改个人信息和网关名称
+## 免责声明
 
-3. [cqu_attack](cqu_attack.py) cqu使用
+本项目仅供学习和研究使用，不得用于非法用途。
 
-解除限速(有线，无线可以自己改，wifi跑满也就40Mbps,有线可以跑满1000Mbps)
+## 许可证
 
-**1.attack版本使用方法**
+本项目使用 [MIT 许可证](LICENSE)。
 
-填写资料
+MIT 许可证允许任何人复制、修改、合并、出版、分发、再许可和/或销售软件的副本，只要他们附上原始的版权声明和许可证声明。
 
-保存运行
-
-
-**2.normal版本使用方法**
-<big>**使用前确保电脑有线和无线都已经连接到校园网**</big>
-
-**3.cqu版本使用方法**
-需要填写[config.yaml](config.yaml)
-
-
-
-测速网站 https://test.ustc.edu.cn/  
-
+详细信息请参阅 [LICENSE 文件](LICENSE)。
