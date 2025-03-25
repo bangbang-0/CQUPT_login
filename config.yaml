@@ -1,0 +1,15 @@
+current_profile: CQUPT
+profiles:
+  CQU:
+    login: https://login.cqu.edu.cn:802/eportal/portal/login?callback=dr1004&user_account=,{device},{account}&user_password={password}&wlan_user_ip={ip}
+    logout: https://login.cqu.edu.cn:802/eportal/portal/logout?callback=dr1006&wlan_user_ip={ip}
+    unbind: https://login.cqu.edu.cn:802/eportal/portal/mac/unbind?callback=dr1005&user_account={account}&wlan_user_ip={ip}
+  CQUPT:
+    login: http://192.168.200.2:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=,{device},{account}@{operator}&user_password={password}&wlan_user_ip={ip}
+    logout: http://192.168.200.2:801/eportal/?c=Portal&a=logout&callback=dr1003&login_method=1&user_account=drcom&user_password=123&ac_logout=1&register_mode=1&wlan_user_ip={ip}
+    unbind: http://192.168.200.2:801/eportal/?c=Portal&a=unbind_mac&callback=dr1002&wlan_user_ip={ip}
+user_info:
+  account: xxxx
+  device: '1'
+  operator: 中国移动
+  password: xxxxx
