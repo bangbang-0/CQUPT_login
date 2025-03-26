@@ -2,7 +2,7 @@
 
 [![Windows 下载](https://img.shields.io/badge/Download-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/bangbang-0/CQUPT_login/releases/download/cqupt/cqupt.v2.0-release.exe)
 
-> ✨ **哆点bug** (已测试兼容多所高校)
+> ✨ **哆点bug**
 
 ## 快速开始
 
@@ -29,7 +29,7 @@ operator = "cmcc"       # 运营商  默认移动cmcc   电信telecom  联通uni
 1. 编辑 config.yaml 文件
 2. run：
 ```Yaml
-auth:
+user_info:
   username: "统一认证账号"
   password: "密码"
 ```
